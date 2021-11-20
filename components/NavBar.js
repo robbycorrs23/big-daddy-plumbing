@@ -1,26 +1,25 @@
-import Nav from "react-bootstrap/Nav";
+// import Nav from "react-bootstrap/Nav";
+import { slide as Menu } from "react-burger-menu";
+import Link from "next/link";
+import styles from "./NavBar.module.css";
 
 export default function NavBar() {
   return (
     <>
-      <Nav className="flex-1 justify-content-center" activeKey="/home">
-        <div className="flex-row">
-          <Nav.Item>
-            <Nav.Link href="/" className="">
-              Home
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="/about-us">About Us</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="/services">Services</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="/contact">Contact</Nav.Link>
-          </Nav.Item>
-        </div>
-      </Nav>
+      <Menu>
+        <Link id="home" className={styles.menuItem} href="/">
+          Home
+        </Link>
+        <Link id="about" className={styles.menuItem} href="/about">
+          About
+        </Link>
+        <Link id="contact" className={styles.menuItem} href="/contact">
+          Contact
+        </Link>
+        <Link id="services" className={styles.menuItem} href="/services">
+          Services
+        </Link>
+      </Menu>
     </>
   );
 }

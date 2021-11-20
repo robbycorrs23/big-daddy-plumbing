@@ -8,11 +8,15 @@ export default function MainHolder() {
         <Image
           src="/big-daddy-logo.jpg"
           alt="Big Daddy Logo"
-          width={250}
+          width={220}
           height={100}
-          layout="fixed"
+          layout="intrinsic"
         />
       </div>
+      <p className={styles.trust}>
+        Trust the team at Big Daddy Plumbing! With over 30 years in the
+        business, there is no job too big or too small.
+      </p>
     </div>
   );
 }

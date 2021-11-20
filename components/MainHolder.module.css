@@ -5,9 +5,21 @@
   background-image: url("../public/leaky-valve.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: gray;
+  background-blend-mode: multiply;
 }
 
 .logo {
-  margin: 0 auto;
-  justify-content: center;
+  margin: 1rem auto 0;
+  width: 50%;
+  box-shadow: 2px 2px 3px #aaa;
+  z-index: 2;
+}
+
+.trust {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2em;
+  font-weight: bolder;
 }
