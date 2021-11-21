@@ -6,7 +6,7 @@ import styles from "./NavBar.module.css";
 export default function NavBar() {
   return (
     <>
-      <Menu>
+      <Menu className={styles.bmMenu}>
         <Link id="home" className={styles.menuItem} href="/">
           Home
         </Link>
