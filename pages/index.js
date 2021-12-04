@@ -17,7 +17,7 @@ export default function Home() {
 
         <MainHolder />
 
-        <NavBar />
+    
       </main>
 
       <footer className={styles.footer}>

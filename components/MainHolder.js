@@ -17,6 +17,12 @@ export default function MainHolder() {
         Trust the team at Big Daddy Plumbing! With over 30 years in the
         business, there is no job too big or too small.
       </p>
+      <hr />
+      <h1 className={styles.header}>Dependable Plumbing and Heating Contractor located in Baiting Hollow</h1>
+      <div className={styles.btnGroup}>
+        <button className={styles.msgBtn}>Send a message</button>
+        <button className={styles.svcBtn}>Check out our services</button>
+      </div>
     </div>
   );
 }
