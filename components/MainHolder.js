@@ -8,7 +8,7 @@ export default function MainHolder() {
         <Image
           src="/big-daddy-logo.jpg"
           alt="Big Daddy Logo"
-          width={220}
+          width={230}
           height={100}
           layout="intrinsic"
         />

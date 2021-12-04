@@ -27,8 +27,6 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by Big Daddy Plumbing!!
-          <span className={styles.logo}>
-          </span>
         </a>
       </footer>
     </div>
