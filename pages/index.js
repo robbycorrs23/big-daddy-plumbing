@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import MainHolder from "../components/MainHolder";
+import ServicesAccordion from "../components/ServicesAccordion";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <h2>6 3 1 - 3 3 5 - 1 9 6 6</h2>
 
         <MainHolder />
+
+        <ServicesAccordion />
 
     
       </main>

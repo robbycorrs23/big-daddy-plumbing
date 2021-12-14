@@ -14,7 +14,7 @@ export default function MainHolder() {
         />
       </div>
       <p className={styles.trust}>
-        Trust the team at Big Daddy Plumbing! With over 30 years in the
+        Trust the team yarn startat Big Daddy Plumbing! With over 30 years in the
         business, there is no job too big or too small.
       </p>
       <hr />
